@@ -42,7 +42,7 @@ export const RecipeListPage = ({ clickFn }) => {
 
   return (
     <>
-      <Box flexDir="column">
+      <Box flexDir="column" maxW="2000px" mx="auto">
         <Center flexDir="column">
           {/* <Heading marginRight="auto" wrap="wrap" paddingBottom="4"> */}
           <Heading paddingBottom="4">Winc Recepe Checker</Heading>
